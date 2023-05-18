@@ -1,4 +1,5 @@
-import { FormRow, FormRowSelect } from './';
+import FormRow from './FormRow';
+import FormRowSelect from './FormRowSelect';
 import Wrapper from '../assets/wrappers/SearchContainer';
 import { useSelector, useDispatch } from 'react-redux';
 import { handleChange, clearFilters } from '../features/allTransactions/allTransactionsSlice';
